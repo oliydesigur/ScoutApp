@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8BF67061F65B1C600ECC4B4 /* pitch3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8BF67051F65B1C400ECC4B4 /* pitch3.jpg */; };
+		F8BF670C1F65C13200ECC4B4 /* FootballPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF670B1F65C13200ECC4B4 /* FootballPlayer.swift */; };
 		F8F01C911F5893BF004B8627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F01C901F5893BF004B8627 /* AppDelegate.swift */; };
 		F8F01C931F5893BF004B8627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F01C921F5893BF004B8627 /* ViewController.swift */; };
 		F8F01C961F5893BF004B8627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F01C941F5893BF004B8627 /* Main.storyboard */; };
 		F8F01C991F5893BF004B8627 /* Scout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8F01C971F5893BF004B8627 /* Scout.xcdatamodeld */; };
 		F8F01C9B1F5893BF004B8627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F01C9A1F5893BF004B8627 /* Assets.xcassets */; };
 		F8F01C9E1F5893BF004B8627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F01C9C1F5893BF004B8627 /* LaunchScreen.storyboard */; };
+		F8F01CA71F58A0DD004B8627 /* scout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F01CA61F589B10004B8627 /* scout.jpg */; };
+		F8F01CA91F58ADA0004B8627 /* pitch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F01CA81F58AD9C004B8627 /* pitch.jpg */; };
+		F8F01CAB1F58CD99004B8627 /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8F01CAA1F58CD94004B8627 /* ball2.png */; };
+		F8F01CAD1F5B199D004B8627 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F01CAC1F5B199D004B8627 /* CommonExtensions.swift */; };
+		F8F535241F58C5300055099A /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F535231F58C5300055099A /* ball.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8BF67051F65B1C400ECC4B4 /* pitch3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pitch3.jpg; sourceTree = "<group>"; };
+		F8BF670B1F65C13200ECC4B4 /* FootballPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballPlayer.swift; sourceTree = "<group>"; };
 		F8F01C8D1F5893BF004B8627 /* Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F01C901F5893BF004B8627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8F01C921F5893BF004B8627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		F8F01C9A1F5893BF004B8627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8F01C9D1F5893BF004B8627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8F01C9F1F5893BF004B8627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F01CA61F589B10004B8627 /* scout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scout.jpg; sourceTree = "<group>"; };
+		F8F01CA81F58AD9C004B8627 /* pitch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pitch.jpg; sourceTree = "<group>"; };
+		F8F01CAA1F58CD94004B8627 /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		F8F01CAC1F5B199D004B8627 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		F8F535231F58C5300055099A /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8BF67041F65B03600ECC4B4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F8F01CAA1F58CD94004B8627 /* ball2.png */,
+				F8F01CA81F58AD9C004B8627 /* pitch.jpg */,
+				F8F535231F58C5300055099A /* ball.jpg */,
+				F8BF67051F65B1C400ECC4B4 /* pitch3.jpg */,
+				F8F01CA61F589B10004B8627 /* scout.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F8BF67091F65B86D00ECC4B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F8F01CAC1F5B199D004B8627 /* CommonExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F8BF670A1F65B87F00ECC4B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8F01C921F5893BF004B8627 /* ViewController.swift */,
+				F8BF670B1F65C13200ECC4B4 /* FootballPlayer.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F8F01C841F5893BF004B8627 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				F8F01C901F5893BF004B8627 /* AppDelegate.swift */,
-				F8F01C921F5893BF004B8627 /* ViewController.swift */,
+				F8BF67041F65B03600ECC4B4 /* Assets */,
+				F8BF67091F65B86D00ECC4B4 /* Utils */,
+				F8BF670A1F65B87F00ECC4B4 /* Controllers */,
 				F8F01C941F5893BF004B8627 /* Main.storyboard */,
 				F8F01C9A1F5893BF004B8627 /* Assets.xcassets */,
 				F8F01C9C1F5893BF004B8627 /* LaunchScreen.storyboard */,
@@ -126,7 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F01C9E1F5893BF004B8627 /* LaunchScreen.storyboard in Resources */,
+				F8F01CA91F58ADA0004B8627 /* pitch.jpg in Resources */,
 				F8F01C9B1F5893BF004B8627 /* Assets.xcassets in Resources */,
+				F8F01CA71F58A0DD004B8627 /* scout.jpg in Resources */,
+				F8BF67061F65B1C600ECC4B4 /* pitch3.jpg in Resources */,
+				F8F535241F58C5300055099A /* ball.jpg in Resources */,
+				F8F01CAB1F58CD99004B8627 /* ball2.png in Resources */,
 				F8F01C961F5893BF004B8627 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +190,9 @@
 			files = (
 				F8F01C931F5893BF004B8627 /* ViewController.swift in Sources */,
 				F8F01C911F5893BF004B8627 /* AppDelegate.swift in Sources */,
+				F8F01CAD1F5B199D004B8627 /* CommonExtensions.swift in Sources */,
 				F8F01C991F5893BF004B8627 /* Scout.xcdatamodeld in Sources */,
+				F8BF670C1F65C13200ECC4B4 /* FootballPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +238,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -241,6 +295,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -275,6 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A2C6JKA9KY;
 				INFOPLIST_FILE = Scout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = productive.Scout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A2C6JKA9KY;
 				INFOPLIST_FILE = Scout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = productive.Scout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +374,7 @@
 				F8F01CA41F5893BF004B8627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
