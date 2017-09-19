@@ -128,10 +128,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pitch3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="D9I-xm-Nr6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <gestureRecognizers/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yPe-K5-yIw" userLabel="All Categories Stack View">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <subviews>
@@ -141,7 +137,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lGn-ch-fBj" userLabel="Info Stack">
                                                 <rect key="frame" x="169" y="63.666666666666679" width="77" height="97.333333333333314"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scout.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xxE-sU-96D">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scout.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xxE-sU-96D">
                                                         <rect key="frame" x="0.0" y="0.0" width="77" height="76.999999999999986"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="77" id="Z2P-2z-ZtT"/>
@@ -155,6 +151,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="77" id="2Mu-T8-YgH"/>
+                                                    <constraint firstAttribute="height" constant="97.329999999999998" id="Wfp-XG-nPb"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.86666666670000003" green="0.8980392157" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -189,10 +189,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nL8-bq-ZtV" firstAttribute="top" secondItem="yPe-K5-yIw" secondAttribute="bottom" id="3Qs-hR-JhQ"/>
-                            <constraint firstItem="D9I-xm-Nr6" firstAttribute="leading" secondItem="6Pv-Jm-gIc" secondAttribute="leading" id="8bJ-lF-jXA"/>
-                            <constraint firstItem="D9I-xm-Nr6" firstAttribute="top" secondItem="6Pv-Jm-gIc" secondAttribute="top" id="CBK-99-rYt"/>
-                            <constraint firstAttribute="trailing" secondItem="D9I-xm-Nr6" secondAttribute="trailing" id="R1n-gZ-4dL"/>
-                            <constraint firstItem="nL8-bq-ZtV" firstAttribute="top" secondItem="D9I-xm-Nr6" secondAttribute="bottom" id="XAZ-7q-GJw"/>
                             <constraint firstItem="yPe-K5-yIw" firstAttribute="top" secondItem="VPp-CP-Khw" secondAttribute="bottom" id="ihN-dX-bqD"/>
                             <constraint firstAttribute="trailing" secondItem="yPe-K5-yIw" secondAttribute="trailing" id="qPz-Ot-CaM"/>
                             <constraint firstItem="yPe-K5-yIw" firstAttribute="leading" secondItem="6Pv-Jm-gIc" secondAttribute="leading" id="xM0-b1-JPI"/>
