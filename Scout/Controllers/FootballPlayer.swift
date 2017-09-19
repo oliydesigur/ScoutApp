@@ -33,14 +33,20 @@ class FootballPlayer: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     
     func customizeForFirstAppearance() {
         view.backgroundColor = UIColor.FlatColor.Gray.WhiteSmoke
         navigationController?.navigationBar.isHidden = false
         title = "Scout Player"
         navigationController?.navigationBar.transparentNavigationBar()
-        infoView.backgroundColor = UIColor.FlatColor.Green.ChateauGreen
-        appearanceView.backgroundColor = UIColor.FlatColor.Orange.NeonCarrot
+        infoView.backgroundColor = UIColor.FlatColor.Green.MountainMeadow
+        appearanceView.backgroundColor = UIColor.FlatColor.Yellow.Energy
         skillsView.backgroundColor = UIColor.FlatColor.Red.TerraCotta
     }
     

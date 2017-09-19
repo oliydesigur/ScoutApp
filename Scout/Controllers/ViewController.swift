@@ -37,6 +37,11 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         animateBall()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        ballView.removeFromSuperview()
+    }
+    
     
     // MARK: - Private functions -
     private func animateBall() {
@@ -52,7 +57,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         
         collision = UICollisionBehavior(items: [ballView])
         collision.translatesReferenceBoundsIntoBoundary = true
-        collision.addBoundary(withIdentifier: "bottomBoundary" as NSCopying , from: CGPoint.init(x: 0, y: grayView.frame.origin.y + 38), to: CGPoint.init(x: view.frame.size.width, y: grayView.frame.origin.y + 38))
+        collision.addBoundary(withIdentifier: "bottomBoundary" as NSCopying , from: CGPoint.init(x: 0, y: grayView.frame.origin.y - 7), to: CGPoint.init(x: view.frame.size.width, y: grayView.frame.origin.y - 7))
         
         animator.addBehavior(collision)
         
